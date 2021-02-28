@@ -21,11 +21,11 @@
                             <a href="#">Quienes Somos<span class="fa fa-angle-down" aria-hidden="true"></span></a>
                             <input type="checkbox" id="drop-2" />
                             <ul>
-                                <li><a href="#" class="drop-text">Bienvenida</a></li>
+                                <li><a href="{{route('bienvenida')}}" class="drop-text">Bienvenida</a></li>
                                 <li><a href="#" class="drop-text">Nuestra Filosofia</a></li>
                                 <li><a href="#" class="drop-text">Propuesta Educativa</a></li>
                             </ul>
-                        </li>
+                        </li>                             
                         <li>
                             <!-- First Tier Drop Down -->
                             <label for="drop-2" class="toggle toogle-2">Ciclos<span class="fa fa-angle-down" aria-hidden="true"></span>

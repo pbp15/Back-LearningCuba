@@ -1,6 +1,6 @@
 
 .loguito{
-    color: rgb(18, 187, 74);
+    color: rgb(63, 196, 107);
 }
 
 .ciclos {
@@ -66,4 +66,14 @@ background: rgb(18, 187, 74);
      padding-right: 3rem;
      border-radius: 1rem 0 0 1rem;
      box-shadow: 0 0 .5rem rgba(0,0,0,0.42);
+}
+
+.fotercito {
+    position:fixed;
+    left:0px;
+    bottom:1px;
+    height:30px;
+    width:100%;
+    background: white;
+    margin-bottom: 8px;
 }

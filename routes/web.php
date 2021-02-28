@@ -16,8 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::group(['middleware' => ['guest']], function(){
 
     // Route::get('/','Auth\LoginController@showLoginForm')->name('defect');
-    Route::get('/','PaginaController@inicio')->name('page');
-    Route::get('/page','PaginaController@inicioreal')->name('pagereal');
+
+    Route::get('/','PaginaController@inicioreal')->name('pagereal');
 
     Route::get('/loginCli','Auth\LoginController@showLoginForm')->name('defect');
     Route::post('/login', 'Auth\LoginController@login')->name('login');

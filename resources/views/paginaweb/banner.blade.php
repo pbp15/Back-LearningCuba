@@ -3,7 +3,7 @@
         <div class="d-md-flex">
             <div class="w3ls_banner_txt">
                 <h3 class="w3ls_pvt-title">Clases<br><span>100% virtuales </span></h3>
-                <p class="text-sty-banner">Tu preparación a la Universidad no puede detenerse , preparate desde cualquier parte del Perú</p>
+                <p class="text-sty-banner">Tu preparación a la Universidad no puede detenerse y lo puedes realizar desde cualquier parte del Perú</p>
                 <a href="about.html" class="btn button-style mt-md-5 mt-4">Read More</a>
             </div>
             <div class="banner-img">
