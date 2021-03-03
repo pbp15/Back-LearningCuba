@@ -25,39 +25,18 @@ class PaginaController extends Controller
        return view('vistas-paginaweb\quienes-somos\bienvenida');
     }
 
-    public function historia()
+    public function filosofia()
     {
-       return view('vistas-paginaweb\quienes-somos\historia');
+       return view('vistas-paginaweb\quienes-somos\filosofia');
+    }
+ 
+
+    public function propuesta()
+    {
+       return view('vistas-paginaweb\quienes-somos\propuesta');
     }
 
-    public function visionmision()
-    {
-       return view('vistas-paginaweb\quienes-somos\vision-mision');
-    }
-
-   //MENU DE QUE OFRECEMOS
-   public function propuesta()
-   {
-      return view('vistas-paginaweb\que-ofrecemos\propuesta');
-   }
-
-   public function metodologia()
-   {
-      return view('vistas-paginaweb\que-ofrecemos\metodologia');
-   }
-
-   public function niveles()
-   {
-      return view('vistas-paginaweb\que-ofrecemos\niveles');
-   }
-
-   public function servicios()
-   {
-      return view('vistas-paginaweb\que-ofrecemos\servicios');
-   }
-
-
-  
+ 
 
    //  SECCION COMUNIDAD
 

@@ -162,8 +162,7 @@
 <section class="partners py-5" id="partners">
     <div class="container py-xl-5 py-lg-3">
         <h3 class="tittle text-center font-weight-bold"> ¿Por qué elegirnos?</h3>
-        <p class="sub-tittle text-center mt-3 mb-sm-5 mb-4">Sed do eiusmod tempor incididunt ut labore et dolore magna
-            aliqua. Ut enim ad minim veniam, quis nostrud exercitation</p>
+        <p class="sub-tittle text-center mt-3 mb-sm-5 mb-4">Porque te brindaremos todos nuestras habilidades , conocimientos y experiencias en cada ciclo virtual y además 🡻 </p>
         <div class="row grid-part text-center pt-4">
             <div class="col-md-2 col-4">
                 <div class="parts-w3ls">

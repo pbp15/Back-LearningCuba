@@ -12,28 +12,26 @@
     {{-- barra social --}}
     @include('paginaweb.barrasocial')
 
-
-
     <!-- header -->
     @include('paginaweb.header')
 
  <!-- //main header -->   
 
- <div class="banner_w3lspvt-2">
+  {{-- resumen de entradas-section --}}
+  <div class="banner_w3lspvt-2">
     <ol class="breadcrumb">
-        <li class="breadcrumb-item"><a href="{{route('pagereal')}}" class="font-weight-bold">Inicio</a></li>
-        <li class="breadcrumb-item" aria-current="page">Quienes Somos</li>
-        <li class="breadcrumb-item" aria-current="page">Bienvenida</li>
+        <li class="breadcrumb-item"><a href="index.html" class="font-weight-bold">Home</a></li>
+        <li class="breadcrumb-item" aria-current="page">Propuesta Educativa</li>
     </ol>
 </div>
+{{-- fin resumen de entradas-section  --}}
 
 {{-- CUERPO  --}}
 <div class="about-inner py-5">
     <div class="container pb-xl-5 pb-lg-3">
         <div class="row py-xl-4">
-            <div class="col-lg-5 about-right-faq pr-5">
-                <h6>En LearningCuba te damos</h6>
-                <h3 class="mt-2 mb-3"> Bienvenida</h3>
+            <div class="col-lg-5 about-right-faq pr-5">            
+                <h3 class="mt-2 mb-3">Propuesta Educativa</h3>
                 <p class="mb-3 text-justify"> Las experiencias de la etapa académica  van marcando el camino de nuestras vidas,
                      en donde se comparten alegrías, se adquieren nuevos conocimientos, se desarrollan habilidades y destrezas, 
                      se descubre el valor del servicio y entrega a los demás.
@@ -58,7 +56,32 @@
     </div>
 </div>
 
- {{-- FIN CUERPO  --}}
+
+
+<section class="ftco-section testimony-section">
+    <div class="container">
+        <div class="row justify-content-center mb-5 pb-2">
+            <div class="col-md-8 text-center heading-section ftco-animate">
+                <h2 class="mb-4">Propuesta Educativa</h2>
+                <p>
+                    Formación integral de nuestros estudiantes promoviendo el desarrollo de competencias y capacidades cognitivas, convirtiendo a los estudiantes en agentes activos de su aprendizaje.
+                </p>  
+                   
+                         <strong>INICIAL</strong>  
+                 <p> Los estudiantes descubren su característica de niño (a) y se establece una ruta hacia resultados de los próximos niveles con su desarrollo potencial biológico, afectivo, cognitivo y social de toda persona.</p>  
+                    
+                       <strong> PRIMARIA </strong>  
+                 <p>En los primeros grados se desarrolla en progresión de la transición de los estudiantes de un nivel a otro de manera articulada, desarrollando sus competencias y capacidades de acuerdo a los enfoques del proceso de enseñanza aprendizaje.</p>   
+                    
+                        <strong>  SECUNDARIA</strong>  
+                 <p> Se afianza los aprendizajes y se forma para la vida, reafirmando su personalidad para asumir los retos de la vida.</p>  
+                 
+            </div>
+        </div>             
+    </div>
+
+</section>
+ 
 
 <!-- copyright bottom -->
 @include('paginaweb.footer')

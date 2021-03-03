@@ -3,7 +3,7 @@
         <div class="header d-lg-flex justify-content-between align-items-center py-3 px-sm-3">
             <!-- logo -->
             <div id="logo">
-                <h1><a href="index.html"><span class="fa fa-linode mr-2"></span>LearningCuba <span class="loguito">Academia</span></a></h1>
+                <h1><a href="{{route('pagereal')}}"><span class="fa fa-linode mr-2"></span>LearningCuba <span class="loguito">Academia</span></a></h1>
              
             </div>
             <!-- //logo -->
@@ -13,7 +13,7 @@
                     <label for="drop" class="toggle">Menu</label>
                     <input type="checkbox" id="drop" />
                     <ul class="menu">
-                        <li><a href="index.html" class="active">Inicio</a></li>
+                        <li><a href="{{route('pagereal')}}" class="active">Inicio</a></li>
                         <li>
                             <!-- First Tier Drop Down -->
                             <label for="drop-2" class="toggle toogle-2">Quienes Somos<span class="fa fa-angle-down" aria-hidden="true"></span>
@@ -22,8 +22,8 @@
                             <input type="checkbox" id="drop-2" />
                             <ul>
                                 <li><a href="{{route('bienvenida')}}" class="drop-text">Bienvenida</a></li>
-                                <li><a href="#" class="drop-text">Nuestra Filosofia</a></li>
-                                <li><a href="#" class="drop-text">Propuesta Educativa</a></li>
+                                <li><a href="{{route('filosofia')}}">Nuestra Filosofia</a></li>
+                                <li><a href="{{route('propuesta')}}">Propuesta Educativa</a></li>
                             </ul>
                         </li>                             
                         <li>

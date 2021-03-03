@@ -32,14 +32,8 @@ Route::group(['middleware' => ['guest']], function(){
    
     // MENU DE QUIENES-SOMOS
     Route::get('/bienvenida','PaginaController@bienvenida')->name('bienvenida');
-    Route::get('/historia','PaginaController@historia')->name('historia');
-    Route::get('/vision-mision','PaginaController@visionmision')->name('vision-mision');
-
-    //MENU DE QUE-OFRECEMOS
+    Route::get('/filosofia','PaginaController@filosofia')->name('filosofia');
     Route::get('/propuesta','PaginaController@propuesta')->name('propuesta');
-    Route::get('/metodologia','PaginaController@metodologia')->name('metodologia');
-    Route::get('/niveles','PaginaController@niveles')->name('niveles');
-    Route::get('/servicios','PaginaController@servicios')->name('servicios');
 
     // MENU ADMISION
     Route::get('/ficha','PaginaController@ficha')->name('ficha');

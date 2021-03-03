@@ -71,9 +71,9 @@ background: rgb(18, 187, 74);
 .fotercito {
     position:fixed;
     left:0px;
-    bottom:1px;
+    bottom:0px;
     height:30px;
     width:100%;
     background: white;
-    margin-bottom: 8px;
+    padding-bottom: 10px;
 }
